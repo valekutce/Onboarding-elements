@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+
+
+
+  <div class="onboarding onboarding--loading">
+    <div class="onboarding__item onboarding__item--active">
+      <h1>Design System Principles</h1>
+      <p>An iterative set of 8 standards for building and maintaining empowering design systems.
+      </p>
+      <a href="https://uxdesign.cc/defining-design-system-principles-69e4790b95b0" target="_blank">Original source<svg width="14" height="14" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+        </svg></a>
+    </div>
+    <div class="onboarding__item">
+      <img src="https://assets.codepen.io/344846/RoundCube-White-Matte-2.png" />
+      <h2>Tools over rules</h2>
+      <p>Think of the system as a toolbox, not an instruction manual. Support the community, don’t block them. Design systems are about empowering others with tools and information to improve upon what has already been built — not police against it.</p>
+    </div>
+    <div class="onboarding__item">
+      <img src="https://assets.codepen.io/344846/Cone-White-Matte.png" />
+      <h2>Lead by example, not by explanation</h2>
+      <p>Show best practices with real examples, not instructions on how to recreate them. Writing an instruction manual on design patterns is laborious to write and read. It’s significantly easier to adopt, understand, update, maintain and implement from live examples.</p>
+    </div>
+    <div class="onboarding__item">
+      <img src="https://assets.codepen.io/344846/Cylinder-White-Matte.png" />
+      <h2>The goal is efficiency, not consistency</h2>
+      <p>There are a lot of goals of a design system: consistency, usability, coherence, consolidation, accessibility, efficiency… the list goes on. The point of this principle is to remember the primary driver for a design system is not to enforce consistency.</p>
+    </div>
+    <div class="onboarding__item">
+      <img src="https://assets.codepen.io/344846/RoundCube-White-Matte-1.png" />
+      <h2>Remove what’s not absolutely necessary and perfect what remains</h2>
+      <p>It’s very easy to add. It’s almost impossible to remove. Every addition should fight to be included. This is a difficult line to draw but complexities that creep into the foundation of a design system propagate out and become much harder to amend if users get accustomed to it.</p>
+    </div>
+    <div class="onboarding__item">
+      <img src="https://assets.codepen.io/344846/Sphere-White-Matte.png" />
+      <h2>Think inclusively</h2>
+      <p>Accessibility is an integrated part of design system development, not a box to check at the end. Inclusivity is imperative for building successful, ethical products that scale. Not to mention, accessibility is hard and design systems are in the unique position to champion it as a fundamental standard for design, development and content strategy.</p>
+    </div>
+    <div class="onboarding__item">
+      <img src="https://assets.codepen.io/344846/RoundCube-White-Matte-3.png" />
+      <h2>Design systems speak in tokens</h2>
+      <p>How a system defines, references, talks about, and curates its design tokens is very important. They are the soul of your system’s aesthetic, the most fundamental visual building block, and the glue that holds the system together in a way no other part can. It’s also frequently the code most likely to be leveraged across code bases.</p>
+    </div>
+    <div class="onboarding__item">
+      <img src="https://assets.codepen.io/344846/SuperToroid-White-Matte.png" />
+      <h2>The system succeeds when it can be used independent of its creators</h2>
+      <p>This is more of a north star than a principle but I find it to be a particularly useful periodic gut check. The system succeeds when it equips others with the principles, knowledge, and tools to solve problems without the design systems team.</p>
+    </div>
+    <div class="onboarding__item">
+      <img src="https://assets.codepen.io/344846/RoundCube-White-Matte.png" />
+      <h2>Flexible enough for different scenarios, specific enough to be useful</h2>
+      <p>Modularity is important (especially to encourage adoption) but too much and it starts to feel like a puzzle, too little and it doesn’t leave enough room for flexibility. Finding the sweet spot depends on the team, business, product, and component.</p>
+    </div>
+    <div class="onboarding__tracker">
+      <div class="onboarding__overlay"></div>
+      <div class="onboarding__nav">
+        <button class="onboarding__nav-button onboarding__prev" data-type="prev">
+          <svg width="18" height="18" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7"></path>
+          </svg></button>
+        <button class="onboarding__nav-button onboarding__next" data-type="next"><svg width="18" height="18" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+          </svg></button>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <script src="https://use.fontawesome.com/ebd19701ea.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <script src="main.js"></script>
+</body>
+</html>
